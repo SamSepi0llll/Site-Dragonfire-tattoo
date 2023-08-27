@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #003d45;
+}
+.navbar .nav-link.active{
+    background-color: #fff;
+    color: #003d45;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+}
+.navbar-brand:hover,
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #088292;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.section-title{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 45px;
+}
+.text-colored{
+    color: #003d45;
+}
+#sobre-o-studio{
+    background-color: #ddeff1;
+}
+#servicos img{
+    height: 300px;
+}
+.nav-tattoo .nav-link.active,
+#contact button{
+    background-color: #003d45;
+    color: #fff;
+}
+#tattoos img{
+    height: 300px;
+}
+#tattoos{
+    background-color: #5f9993ab;
+}
+#contact textarea{
+    height: 200px;
+    resize: none;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+@media (min-width: 767px) and (max-width: 991px){
+    #tattoos img{
+        height: 200px;
+    }
+}
+.alert-success{
+    display: none;
+}
+.error{
+    color: red;
+}
